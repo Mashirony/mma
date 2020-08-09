@@ -1,0 +1,96 @@
+@media (max-width: 1199px) {
+   html {
+      font-size: 8px;
+   }   
+
+}
+
+@media (max-width: 991px) {
+   html {
+      font-size: 7px;
+   }
+   .visible-lg {
+      display: none;
+   }
+   .m-menu-link {
+      display: block;
+   }
+   .about {
+      display: flex;
+      justify-content: center; 
+      flex-direction: column;
+      height: 90vh;
+      padding: 1%;
+      align-items: center;
+   }
+   .about-image {
+      max-width: 90%;
+      max-height: 90%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+   }
+   .about-text {
+      max-width: 90%;
+   }
+   .about-text h2 {
+      text-align: center;
+   }
+   .direction {
+      height: 105vh;
+   }
+   .directions {
+      display: flex;
+      flex-direction: column;
+   }
+   .direction-1 {
+      height: 250px;
+      width: 360px;
+      text-align: center;
+      padding-top: 10%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+   }
+   
+   .direction-2 {
+      height: 250px;
+      width: 360px;
+      text-align: center;
+      padding-top: 10%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+   }
+   
+   .direction-3 {
+      height: 250px;
+      width: 360px;
+      text-align: center;
+      padding-top: 10%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+   }
+   .invite {
+      height: 95vh;
+   }
+   .invite-items {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+   }
+   .invite-item p {
+      margin-bottom: 10px;
+   }
+   .target-text {
+      width: 90%;
+   }
+   .target {
+      height: 45vh;
+   }
+   .form {
+      width: 99%;
+   }
+   .close-menu {
+      display: block;
+   }
+}
